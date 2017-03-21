@@ -1,6 +1,6 @@
 import utilities.helpers
 
-def jobDescription = 'fake Backend (Core, Api, tools)'
+def jobDescription = 'super fake Backend (Core, Api, tools)'
 //Branch which publish artifacts and create tags
 def primaryBranch = 'master'
 //Job that will be called on promotion
