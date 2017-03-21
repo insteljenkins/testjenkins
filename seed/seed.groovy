@@ -4,7 +4,7 @@ def jobDescription = 'super fake Backend (Core, Api, tools)'
 //Branch which publish artifacts and create tags
 def primaryBranch = 'master'
 //Job that will be called on promotion
-def promoteJobName = "deploy-fake-be"
+def promoteJobName = "deploy-fake"
 //Environments for promotion
 def promoteEnvironments = [["name":"Development","icon":"star-red","env":"dev","srv":"drv"],["name":"Quality Assurance","icon":"star-blue","env":"qa","srv":"drv"]]
 //Mail destinations
